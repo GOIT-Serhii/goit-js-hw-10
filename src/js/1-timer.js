@@ -90,4 +90,6 @@ setInterval(() => {
 
   }
 }, 1000)
+  startBtn.disabled = true; 
+  userInput.disabled = true;
 }
