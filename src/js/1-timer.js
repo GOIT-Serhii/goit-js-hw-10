@@ -66,8 +66,8 @@ function convertMs(ms) {
 }
 
 
-
-
+startBtn.addEventListener('click', hadlerClick);
+function hadlerClick() {
 setInterval(() => {
   if (UserSelectedDate) {
     const currentTime = new Date();
@@ -90,3 +90,4 @@ setInterval(() => {
 
   }
 }, 1000)
+}
